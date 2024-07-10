@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nak Nak Menu</title>
+    <style>
+        .menu-section {
+            padding: 20px;
+            background-color: #fff;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .menu-section h2 {
+            color: #333;
+            text-align: center;
+        }
+        .menu-items {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .menu-item {
+            flex: 1 1 calc(33.333% - 40px);
+            box-sizing: border-box;
+            margin: 10px;
+            text-align: center;
+        }
+        .menu-item img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .menu-item p {
+            color: #666;
+            margin: 10px 0;
+        }
+        .menu_btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            color: white;
+            background: #000;
+            padding: 8px 10px;
+            margin: 0 auto;
+            transition: 0.3s;
+        }
+    </style>
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section id="Home">
+        <nav>
+            <div class="logo">
+                <img src="image/logo.png">
+            </div>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="damn.html">Promotion</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="location.html">Location</a></li>
+                </ul>
+
+            <div class="icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+
+        </nav>
+
+        <div class="main">
+
+            <div class="men_text">
+                <h1>NakNak<span>Menu</span><br> Chicken Stories</h1>
+            </div>
+
+            <div class="main_image">
+                <img src="image/menu.jpeg">
+            </div>
+
+        </div>
+
+        <p>
+            Experience NakNak Chicken's Korean Fried Chicken, a crispy masterpiece. For our Boneless Thighs, marinated in secret spices, deliver a tender, juicy bite in every golden, crispy piece. And dive into our Wings & Drumettes, coated in flavorful sauces for a crunch that's irresistible. Whether shared or savored solo, NakNak Chicken promises a feast that delights chicken lovers everywhere!
+        </p>
+        
+
+        
+        <div class="main_btn">
+            <a href="#">Order Now</a>
+            <i class="fa-solid fa-angle-right"></i>
+        </div>
+
+    </section>
+
+    <div class="menu-section">
+        <h2>Nak Dak Boneless Thigh</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="image/menu 1.png" alt="Nak Dak-Soy Garlic">
+                <h2>Nak Dak - Soy Garlic</h2>
+                <p>낙닭 간장 마늘 순살 치킨</p>
+                <h3>RM15.90</h3>
+            </div>
+            <div class="menu-item">
+                <img src="image/menu 3.png" alt="Nak Dak with Cheese Sauce">
+                <h2>Nak Dak - Gochujang</h2>
+                <p>낙닭 고추장 순살 치킨</p>
+                <h3>RM16.90</h3>
+            </div>
+            <div class="menu-item">
+                <img src="image/menu 2.png" alt="Nak Dak-Gochujang">
+                <h2>Nak Dak Cheese Sauce</h2>
+                <p>낙닭 치즈 소스 순살 치킨</p>
+                <h3>RM15.90</h3>
+            </div>
+            <a href="#" class="menu_btn">Order Now</a>
+        </div>
+    </div>
+
+    <div class="menu-section">
+        <h2>Wings & Drumettes</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="image/menu 4.png" alt="Gochujang Wings">
+                <h2>Gochujang Wings</h2>
+                <p>고추장 치킨윙 & 치킨봉</p>
+                <h3>RM15.90</h3>
+            </div>
+            <div class="menu-item">
+                <img src="image/menu 5.png" alt="Spicy Gochujang Wings">
+                <h2>Spicy Gochujang Wings</h2>
+                <p>스파이시  고추장 치킨윙 & 치킨봉</p>
+                <h3>RM15.90</h3>
+            </div>
+            <div class="menu-item">
+                <img src="image/menu 6.png" alt="Soy Garlic Wings">
+                <h2>Soy Garlic Wings</h2>
+                <p>간장 마늘 치킨윙 & 치킨봉</p>
+                <h3>RM15.90</h3>
+            </div>
+            <a href="#" class="menu_btn">Order Now</a>
+        </div>
+    </div>
+
+<!--Footer-->
+
+<footer class="footer">
+    <div class="section_container footer_container">
+      <div class="footer__logo">
+        <img src="image/logo.footer.png" alt="logo" />
+      </div>
+
+    <div class="footer__bar">
+      Copyright © 2024 Web Design Mastery. All rights reserved.
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="main.js"></script>
+</body>
+</html>

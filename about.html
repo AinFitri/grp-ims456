@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NakNak</title>
+    <style>
+      /* About Section Styles */
+.about {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about_main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about_text {
+    max-width: 600px;
+}
+
+.about_text h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.about_text h1 span {
+    color: #007BFF;
+}
+
+.about_text h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #fac031;
+}
+
+.about_text p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    color: #000000;
+    line-height: 1.8;
+}
+
+/* Add some animations */
+.image img {
+    transition: transform 0.3s ease;
+}
+
+.image img:hover {
+    transform: scale(1.05);
+}
+
+.about_text h1, .about_text h3, .about_text p {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s forwards;
+}
+
+.about_text h1 {
+    animation-delay: 0.2s;
+}
+
+.about_text h3 {
+    animation-delay: 0.4s;
+}
+
+.about_text p {
+    animation-delay: 0.6s;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about_main {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about_text {
+        max-width: 100%;
+    }
+
+    .image img {
+        max-width: 100%;
+    }
+}
+    </style>
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+  <section id="Home">
+    <nav>
+        <div class="logo">
+            <img src="image/logo.png">
+        </div>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="promotion.html">Promotion</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="location.html">Location</a></li>
+        </ul>
+
+        <div class="icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-heart"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+
+    </nav>
+
+    <div class="main">
+
+        <div class="men_text">
+            <h1>Behind<span>Story</span><br> of the Joy</h1>
+        </div>
+
+        <div class="main_image">
+            <img src="image/about 3.png">
+        </div>
+
+    </div>
+
+    <p>
+        Experience the crunch of our signature Korean Fried Chicken, paired with juicy 100% Premium Beef Burgers,loaded fries, handmade cookies, sundaes, and more!
+    </p>
+
+    
+    <div class="main_btn">
+        <a href="#">Order Now</a>
+        <i class="fa-solid fa-angle-right"></i>
+    </div>
+
+</section>
+
+<div class="about" id="About">
+  <div class="container">
+      <div class="about_main">
+          <div class="image">
+              <img src="image/about 2.jpg" alt="About Image">
+          </div>
+          <div class="about_text">
+              <h1><span>About</span> Us</h1>
+              <h3>Our Delicious Journey</h3>
+              <p>
+                NAKNAK Korean Chicken is a popular Korean-inspired quick service restaurant known for its Korean Fried Chicken, premium beef burgers, loaded fries, handmade cookies, and more. The brand name "NAKNAK" signifies joy in Korean and resembles the sound of someone knocking on the door. It also means "we want" in Malay. Their goal is to bring joy through accessible and high-quality Korean food.
+
+              </p>
+              <p>
+                NakNak has been committed to perfecting the art of fried chicken. Our secret blend of spices and sauces, coupled with a dedication to quality ingredients, ensures that every piece of NakNak Chicken is a celebration of flavor and texture.
+                
+              </p>
+          </div>
+      </div>
+  </div>
+</div>
+
+  <!--Footer-->
+   
+      <footer class="footer">
+        <div class="section_container footer_container">
+          <div class="footer__logo">
+            <img src="image/logo.footer.png" alt="logo" />
+          </div>
+
+        <div class="footer__bar">
+          Copyright © 2024 Web Design Mastery. All rights reserved.
+        </div>
+      </footer>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+</body>
+</html>
+
